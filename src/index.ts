@@ -8,7 +8,7 @@ rotulo2.innerHTML = "Descuento10%";
 btnEnv.addEventListener("click", () => {
   let dato1 = 450.0;
   let descuento: number = 10;
-  let descuento: number = dato1 - dato1 * 0.1;
+  let descuento: number = (dato1 - dato1) * 0.1;
   console.log(
     "El precio final de su compra con descuento es de",
     descuento,
